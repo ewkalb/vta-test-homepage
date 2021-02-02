@@ -5,9 +5,6 @@ body {
     color: #edf3ff;
 }
 
-h1 {
-
-}
 
 h2 {
     font-family: "Bebas Neue";
@@ -88,10 +85,10 @@ nav {
     padding-left: 20px;
 }
 .page-section-blue h2 {
+    font-size: 50px;
     grid-area: 2 / 4 / 4 / 9;
 }
-.page-section-blue h3 {
-}
+
 .page-section-blue h4 {
     grid-area: 4 / 3 / 8 / 6;
     width: 400px
@@ -210,21 +207,21 @@ nav {
     height: 150px;
     background-color: black;
     display: flex;
-    justify-content: space-between;
+    
     
 }
-.contact-container img {
+.contact-card-container img {
     padding: 30px;
+    height: 50px;
 }
 .contact-card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    background-color: black;
 }
 
 .contact-card {
     font-size: 28px;
-    padding-left: 100px;
-    padding-right: 100px;
     text-align: center;
 }
 .contact-card h2 {

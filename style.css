@@ -22,6 +22,9 @@ h3 {
 h4 {
     font-size: 20px;
 }
+h5 {
+    font-family: "Source Code Pro";
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -131,10 +134,13 @@ nav {
     margin-right: auto;
     background-image: url("media/images/why-bg.jpg");
     background-size: cover;
+    padding-bottom: 50px;
 }
 
 .why-vta h2 {
     text-align: center;
+    background-color:#4d4a49;
+    margin-bottom: 50px;
 }
 
 .why-cards-container {
@@ -156,6 +162,44 @@ nav {
     letter-spacing: 2px;
 }
 
+.why-card ul {
+    text-align: left;
+}
 .why-card li {
     font-family: "Source Code Pro";
+}
+
+.staff {
+    display: flex;
+}
+
+.teacher-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    width: 50%
+}
+
+.teacher-container h3 {
+    letter-spacing: 2px;
+    padding-left: 30px;
+}
+
+.teacher {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.teacher img {
+    height: 300px;
+    padding: 30px;
+}
+
+.teacher h5 {
+    width: 400px;
+    text-align: left;
 }

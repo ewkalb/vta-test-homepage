@@ -183,7 +183,7 @@ nav {
 
 .teacher-container h3 {
     letter-spacing: 2px;
-    padding-left: 30px;
+    padding-left: 100px;
 }
 
 .teacher {
@@ -197,9 +197,41 @@ nav {
 .teacher img {
     height: 300px;
     padding: 30px;
+    padding-left: 50px;
 }
 
 .teacher h5 {
     width: 400px;
     text-align: left;
 }
+
+.contact-container {
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-container img {
+    padding: 30px;
+}
+.contact-card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-card {
+    font-size: 28px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.contact-card a {
+    color: #edf3ff;
+    text-decoration: none;
+}
+.contact-card a:hover {
+    color: #1227e3;
+    text-decoration: underline;
+}
+

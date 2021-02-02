@@ -66,11 +66,9 @@ nav {
 
 }
 
-.top-image{
-    display:
-}
+
 .top-image img {
-    width: 100%
+    width: 100%;
 }
 
 .page-section-blue {
@@ -174,6 +172,7 @@ nav {
 }
 
 .teacher-container {
+    background-color: #dcdde6;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -184,6 +183,7 @@ nav {
 .teacher-container h3 {
     letter-spacing: 2px;
     padding-left: 100px;
+    color: black;
 }
 
 .teacher {
@@ -203,6 +203,7 @@ nav {
 .teacher h5 {
     width: 400px;
     text-align: left;
+    color: black;
 }
 
 .contact-container {
@@ -210,6 +211,7 @@ nav {
     background-color: black;
     display: flex;
     justify-content: space-between;
+    
 }
 .contact-container img {
     padding: 30px;
@@ -225,6 +227,9 @@ nav {
     padding-right: 100px;
     text-align: center;
 }
+.contact-card h2 {
+    padding: 0;
+}
 
 .contact-card a {
     color: #edf3ff;
@@ -232,6 +237,5 @@ nav {
 }
 .contact-card a:hover {
     color: #1227e3;
-    text-decoration: underline;
 }
 

@@ -166,6 +166,8 @@ nav {
 
 .staff {
     display: flex;
+    align-items: flex-start;
+    background-color: #dcdde6;
 }
 
 .teacher-container {
@@ -174,7 +176,8 @@ nav {
     flex-direction: column;
     text-align: left;
     justify-content: space-between;
-    width: 50%
+    width: 50%;
+    height: 100%;
 }
 
 .teacher-container h3 {

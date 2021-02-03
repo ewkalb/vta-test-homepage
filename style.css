@@ -164,10 +164,11 @@ nav {
     font-family: "Source Code Pro";
 }
 
-.staff {
+.staff-container {
     display: flex;
     align-items: flex-start;
     background-color: #dcdde6;
+    
 }
 
 .teacher-container {

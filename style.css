@@ -178,11 +178,12 @@ nav {
     justify-content: space-between;
     width: 50%;
     height: 100%;
+    border-right: 10px solid #4d4a49;
 }
 
 .teacher-container h3 {
     letter-spacing: 2px;
-    padding-left: 100px;
+    padding-left: 50px;
     color: black;
 }
 
@@ -201,7 +202,7 @@ nav {
 }
 
 .teacher h5 {
-    width: 400px;
+    width: 500px;
     text-align: left;
     color: black;
 }

@@ -44,6 +44,7 @@ header img {
 
 nav {
     display: inline-flex;
+    wrap: wrap;
 }
 .main-nav-link {
     font-family: "Bebas Neue";
@@ -203,6 +204,7 @@ nav {
 }
 
 .teacher h5 {
+    font-size: 16px;
     width: 500px;
     text-align: left;
     color: black;
@@ -241,3 +243,27 @@ nav {
     color: #1227e3;
 }
 
+/* media breakpoints */
+
+/* under 1250px */
+
+@media only screen and (max-width: 1250px) {
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+
+}
+
+/* under 730px */
+
+@media only screen adn (max-width: 730px) {
+
+}
+
+/* under 480px */
+
+@media only screen and (max-width: 480px) {
+
+}

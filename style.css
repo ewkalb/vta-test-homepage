@@ -268,6 +268,10 @@ nav {
         grid-area: 4 / 2 / 8 / 6;
         width: 300px
     }
+
+    .page-section-blue #place {
+        
+    }
     .staff-container {
         flex-direction: column;
         align-items: center;
@@ -368,5 +372,70 @@ nav {
 /* under 480px */
 
 @media only screen and (max-width: 480px) {
+    .top-image {
+        display: none;
+    }
+    #top{
+        height: 300px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-start;
 
+    }
+
+    #top img {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    nav a {
+        width: 100%;
+    }
+
+    .page-section-blue {
+        background-color: #1227e3;
+        height: 600px;
+        border-top: 3px solid #4d4a49;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .page-section-blue h2 {
+        margin: 0;
+        align-content: center;
+    }
+
+    .page-section-blue #place {
+        width: 100%;
+    }
+
+    .why-vta {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        
+    }
+
+    .why-cards-container {
+        flex-direction: column;
+        justify-content: space-between;
+        
+        
+    }
+
+    .why-card {
+        margin-top: 30px;
+    }
+
+    
+
+
+}
 }
